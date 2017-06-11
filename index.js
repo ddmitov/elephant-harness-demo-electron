@@ -20,7 +20,7 @@ function startTestScript() {
 
   var testScriptOutput = '';
 
-  var testScriptObject = new Object();
+  var testScriptObject = {};
   testScriptObject.interpreter = 'php-cgi';
   testScriptObject.scriptFullPath = testScriptFullPath;
 
@@ -33,7 +33,8 @@ function startTestScript() {
   };
 
   testScriptObject.exitFunction = function(stdout) {
-    document.write(testScriptOutput);
+    var html = document.documentElement;
+    html.innerHTML = stdout;
   };
 
   elephantHarness.startScript(testScriptObject);

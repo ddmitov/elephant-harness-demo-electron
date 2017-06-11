@@ -8,10 +8,9 @@ elephant-harness-demo-electron
 [![bitHound Status](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron)
 [![Snyk Status](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron)  
 
-elephant-harness-demo-electron is a demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) NPM package based on [Electron](http://electron.atom.io/).
+Demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) NPM package based on [Electron](http://electron.atom.io/).
 
 ## Quick Start
-Type the following commands:  
 ``git clone git://github.com/ddmitov/elephant-harness-demo-electron.git``  
 ``cd elephant-harness-demo-electron``  
 ``npm install``  

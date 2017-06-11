@@ -32,9 +32,11 @@ function startTestScript() {
     testScriptOutput = testScriptOutput + stdout;
   };
 
-  testScriptObject.exitFunction = function(stdout) {
-    var html = document.documentElement;
-    html.innerHTML = stdout;
+  testScriptObject.exitFunction = function(exitCode) {
+    if (exitCode === 0) {
+      var html = document.documentElement;
+      html.innerHTML = testScriptOutput;
+    }
   };
 
   elephantHarness.startScript(testScriptObject);

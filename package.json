@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ddmitov/elephant-harness-demo-electron#readme",
   "dependencies": {
-    "elephant-harness": "^0.5.1",
-    "electron": "^1.0.0"
+    "elephant-harness": "^0.7.0",
+    "electron": "^1.7.3"
   }
 }

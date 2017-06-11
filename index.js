@@ -2,7 +2,7 @@
 
 // elephant-harness demo for Electron
 
-const elephantHarness = require('../elephant-harness');
+const elephantHarness = require('elephant-harness');
 
 var os = require('os');
 var platform = os.platform();

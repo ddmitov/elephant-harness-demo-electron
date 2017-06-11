@@ -5,21 +5,21 @@ elephant-harness-demo-electron
 [![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 [![NPM Version](https://img.shields.io/npm/v/elephant-harness-demo-electron.svg)](https://www.npmjs.com/package/elephant-harness-demo-electron)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/11448/badge.svg)](https://scan.coverity.com/projects/ddmitov-elephant-harness-demo-electron)
-[![bitHound Code](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron)
-[![Known Vulnerabilities](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron)  
+[![bitHound Status](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron)
+[![Snyk Status](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron)  
 
 elephant-harness-demo-electron is a demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) NPM package based on [Electron](http://electron.atom.io/).
 
 ## Quick Start
-Create an empty directory and type:  
-``npm init --yes``  
-``npm install elephant-harness-demo-electron``  
-``cd node_modules/elephant-harness-demo-electron``  
+Type the following commands:  
+``git clone --depth=1 git://github.com/ddmitov/elephant-harness-demo-electron.git``
+``cd elephant-harness-demo-electron``  
+``npm install``  
 ``npm start``
 
 ## Node.js Dependencies
 * ``elephant-harness``
-* ``electron-prebuilt``
+* ``electron``
 
 ## External Dependency
 ``php-cgi`` binary available on PATH

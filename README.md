@@ -12,7 +12,7 @@ elephant-harness-demo-electron is a demo application for the [elephant-harness](
 
 ## Quick Start
 Type the following commands:  
-``git clone --depth=1 git://github.com/ddmitov/elephant-harness-demo-electron.git``
+``git clone --depth=1 git://github.com/ddmitov/elephant-harness-demo-electron.git``  
 ``cd elephant-harness-demo-electron``  
 ``npm install``  
 ``npm start``

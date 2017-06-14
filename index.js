@@ -32,6 +32,14 @@ function startTestScript() {
     testScriptOutput = testScriptOutput + stdout;
   };
 
+  testScriptObject.errorFunction = function(error) {
+    if (error && error.code === 'ENOENT') {
+      var html = document.documentElement;
+      html.innerHTML =
+        '<h1><center>PHP interpreter was not found.</center></h1>';
+    }
+  }
+
   testScriptObject.exitFunction = function(exitCode) {
     if (exitCode === 0) {
       var html = document.documentElement;

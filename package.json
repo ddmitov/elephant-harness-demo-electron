@@ -1,6 +1,6 @@
 {
   "name" : "elephant-harness-demo-electron",
-  "version" : "0.5.3",
+  "version" : "0.5.4",
   "description" : "Electron demo application for the elephant-harness package",
   "main" : "main.js",
   "scripts" : {

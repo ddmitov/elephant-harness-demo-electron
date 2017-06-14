@@ -1,6 +1,6 @@
 'use strict';
 
-// elephant-harness demo for Electron
+// Demo application for the elephant-harness NPM package based on Electron
 
 const elephantHarness = require('elephant-harness');
 

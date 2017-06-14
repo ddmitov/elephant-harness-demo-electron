@@ -16,12 +16,16 @@ Demo application for the [elephant-harness](https://www.npmjs.com/package/elepha
 ``npm install``  
 ``npm start``
 
-## Node.js Dependencies
+## Core Dependencies
+* ``os``
+* ``path``
+
+## NPM Dependencies
 * ``elephant-harness``
 * ``electron``
 
 ## External Dependency
-``php-cgi`` binary available on PATH
+``php-cgi`` binary on PATH
 
 ## [Thanks and Credits](./CREDITS.md)
 

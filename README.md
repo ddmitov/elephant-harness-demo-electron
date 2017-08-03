@@ -4,11 +4,10 @@ elephant-harness-demo-electron
 [![GitHub Version](https://img.shields.io/github/release/ddmitov/elephant-harness-demo-electron.svg)](https://github.com/ddmitov/elephant-harness-demo-electron/releases)
 [![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 [![NPM Version](https://img.shields.io/npm/v/elephant-harness-demo-electron.svg)](https://www.npmjs.com/package/elephant-harness-demo-electron)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/11448/badge.svg)](https://scan.coverity.com/projects/ddmitov-elephant-harness-demo-electron)
 [![bitHound Status](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/elephant-harness-demo-electron)
 [![Snyk Status](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron)  
 
-Demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) NPM package based on [Electron](http://electron.atom.io/)
+Demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) npm package based on [Electron](http://electron.atom.io/)
 
 ## Quick Start
 ``git clone git://github.com/ddmitov/elephant-harness-demo-electron.git``  

@@ -2,12 +2,12 @@
 
 // Demo application for the elephant-harness NPM package based on Electron
 
-const elephantHarness = require('elephant-harness');
+const ELEPHANT_HARNESS = require('elephant-harness');
 
-var os = require('os');
-var platform = os.platform();
+let os = require('os');
+let platform = os.platform();
 
-var path;
+let path;
 if (platform !== 'win32') {
   path = require('path').posix;
 } else {
@@ -15,16 +15,16 @@ if (platform !== 'win32') {
 }
 
 function startTestScript() {
-  var testScriptFullPath =
+  let testScriptFullPath =
       path.join(__dirname, 'php', 'phpinfo.php');
 
-  var testScriptOutput = '';
+  let testScriptOutput = '';
 
-  var testScriptObject = {};
+  let testScriptObject = {};
   testScriptObject.interpreter = 'php-cgi';
   testScriptObject.scriptFullPath = testScriptFullPath;
 
-  var interpreterSwitches = [];
+  let interpreterSwitches = [];
   interpreterSwitches.push('-q');
   testScriptObject.interpreterSwitches = interpreterSwitches;
 
@@ -34,7 +34,7 @@ function startTestScript() {
 
   testScriptObject.errorFunction = function(error) {
     if (error && error.code === 'ENOENT') {
-      var html = document.documentElement;
+      let html = document.documentElement;
       html.innerHTML =
         '<h1><center>PHP interpreter was not found.</center></h1>';
     }
@@ -42,10 +42,10 @@ function startTestScript() {
 
   testScriptObject.exitFunction = function(exitCode) {
     if (exitCode === 0) {
-      var html = document.documentElement;
+      let html = document.documentElement;
       html.innerHTML = testScriptOutput;
     }
   };
 
-  elephantHarness.startScript(testScriptObject);
+  ELEPHANT_HARNESS.startScript(testScriptObject);
 }

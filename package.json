@@ -1,6 +1,6 @@
 {
   "name": "elephant-harness-demo-electron",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "description": "Electron demo application for the elephant-harness package",
   "main": "main.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ddmitov/elephant-harness-demo-electron#readme",
   "dependencies": {
-    "elephant-harness": "^0.8.3",
+    "elephant-harness": "^0.8.6",
     "electron": "^1.7.11",
     "snyk": "^1.41.1"
   },

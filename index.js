@@ -38,7 +38,7 @@ function startTestScript() {
     if (error && error.code === "ENOENT") {
       let html = document.documentElement;
       html.innerHTML =
-        '<h1><center>PHP interpreter was not found.</center></h1>';
+        "<h1><center>PHP interpreter was not found.</center></h1>";
     }
   };
 

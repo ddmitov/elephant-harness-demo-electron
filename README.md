@@ -29,4 +29,5 @@ Demo application for the [elephant-harness](https://www.npmjs.com/package/elepha
 ## [Thanks and Credits](./CREDITS.md)
 
 ## [License](./LICENSE.md)
-MIT © 2017 - 2018 Dimitar D. Mitov  
+MIT 2017 - 2018
+Dimitar D. Mitov  

@@ -1,12 +1,10 @@
 {
   "name": "elephant-harness-demo-electron",
-  "version": "0.8.8",
+  "version": "1.0.0",
   "description": "Electron demo application for the elephant-harness package",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "start": "electron main.js"
   },
   "repository": {
     "type": "git",
@@ -25,9 +23,7 @@
   },
   "homepage": "https://github.com/ddmitov/elephant-harness-demo-electron#readme",
   "dependencies": {
-    "elephant-harness": "^0.8.6",
-    "electron": "^2.0.8",
-    "snyk": "^1.41.1"
-  },
-  "snyk": true
+    "elephant-harness": "^1.0.0",
+    "electron": "^2.0.8"
+  }
 }

@@ -14,8 +14,6 @@ if (platform !== "win32") {
   path = require("path").win32;
 }
 
-const parser = new DOMParser();
-
 function startTestScript() {
   let testScriptFullPath =
       path.join(__dirname, "php", "phpinfo.php");
@@ -24,7 +22,7 @@ function startTestScript() {
 
   let testScriptObject = {};
   testScriptObject.interpreter = "php-cgi";
-  testScriptObject.scriptFullPath = testScriptFullPath;
+  testScriptObject.script = testScriptFullPath;
 
   let interpreterSwitches = [];
   interpreterSwitches.push("-q");

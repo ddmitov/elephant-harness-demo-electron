@@ -24,7 +24,12 @@
   "homepage": "https://github.com/ddmitov/elephant-harness-demo-electron#readme",
   "dependencies": {
     "elephant-harness": "^1.0.0",
+<<<<<<< HEAD
     "electron": "^12.0.5"
+=======
+    "electron": "^19.0.15",
+    "snyk": "^1.316.2"
+>>>>>>> 62c1d38eed7c62b97673f94f54ca1c35d11e2214
   },
   "snyk": true
 }

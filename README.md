@@ -1,7 +1,5 @@
 # elephant-harness-demo-electron
 
-[![Snyk Status](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/elephant-harness-demo-electron)  
-
 Demo application for the [elephant-harness](https://www.npmjs.com/package/elephant-harness) npm package based on [Electron](http://electron.atom.io/)
 
 ## Quick Start
